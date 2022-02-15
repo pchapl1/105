@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1.5px;
+}
+
+.myButton {
+    margin: 2% 0;
+
+}
+
+nav {
+    padding: 3% 3% 1% 3%;
+    font-size: 1.4rem;
+    border-bottom: 2px solid gainsboro ;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+nav li {
+    list-style-type: none;
+    color: #0083B0;
+}
+
+a {
+    text-decoration-style: none;
+
+}
+
+
+.container {
+    margin-top: 5rem;
+    color: white;
+    background: linear-gradient(to right, #00B4DB, #0083B0);
+    padding: 1% 9%;
+}
+
+.container h1 {
+    text-align: center;
+    padding-top: 7%;
+}
+.form-label {
+    margin-top: .6rem;
+}
+
+.alert-error {
+    border: 3px solid red !important;
+    background-color: hotpink !important;
+}
