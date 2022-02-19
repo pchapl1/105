@@ -25,26 +25,32 @@
             <div>
                 <label class="form-label"  for="">Password: </label>
                 <input class="form-control" type="password" id="txtPassword">
+                <p class="errors password-error"></p>
             </div> 
             <div>
                 <label class="form-label"  for="">First Name: </label>
                 <input class="form-control" type="text" id="txtFirst">
+                <p class="errors fname-error"></p>
             </div> 
             <div>
                 <label class="form-label"  for="">Last Name: </label>
                 <input class="form-control" type="text" id="txtLast">
+                <p class="errors lname-error"></p>
             </div> 
             <div>
                 <label class="form-label"  for="">Age: </label>
                 <input class="form-control" type="number" id="txtAge">
+                <p class="errors age-error"></p>
             </div> 
             <div>
                 <label class="form-label"  for="">Address: </label>
                 <input class="form-control" type="text" id="txtAddress">
+                <p class="errors address-error"></p>
             </div> 
             <div>
                 <label class="form-label"  for="">Phone Number: </label>
                 <input class="form-control" type="tel" id="txtPhone">
+                <p class="errors phone-error"></p>
             </div> 
             <div>
                 <label class="form-label"  for="">Payment: </label>
@@ -53,10 +59,12 @@
                     <option value="credit">Credit Card</option>
                     <option value="debit">Debit Card</option>
                 </select>
+                <p class="errors payment-error"></p>
             </div> 
             <div>
                 <label class="form-label"  for="">Color: </label>
                 <input class="form-control" type="color" id="txtColor">
+                <p class="errors color-error"></p>
             </div> 
             <div class="myButton">
                 <button id="btnRegister" class="btn btn-primary">Register</button>
@@ -82,7 +90,6 @@
             // $("#header").load("header.html");  
             $("#nav").load("nav.html"); 
             });
-            
     </script>
 </body>
 </html>
